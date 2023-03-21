@@ -6,7 +6,6 @@ import lombok.NonNull;
 
 @Entity
 @Data
-
 public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
